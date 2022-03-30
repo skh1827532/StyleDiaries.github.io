@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.borderColor{
+    border-color:rgba(199, 185, 192, 0.3);
+}
+
+.carouselBackground{
+    background: rgba(200, 172, 161, 0.2)
+}
+
+.boxShadow{
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1)
+}
+
+.next{
+  background-image: url('AssetsOne/Left.svg');
+
+}
+.prev{
+  background-image: url('AssetsOne/Right.svg');
+}
+
+
+.swiper-container {
+  width: 270px;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-container {
+    width: 640px;
+  }
+
+}
+@media screen and (min-width: 400px) {
+  .swiper-container {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper-container {
+    width: 1200px;
+  }
+}
+/* START OF SWIPER BOX  */
+.swiper-box {
+  width: 270px;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-box {
+    width: 480px;
+  }
+
+}
+@media screen and (min-width: 320px) {
+  .swiper-box {
+    width: 270px;
+  }
+
+}
+
+@media screen and (min-width: 400px) {
+  .swiper-box {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-box {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .swiper-box {
+    width: 480px;
+  }
+}
+
+
+.firstBackgroundProperty{
+  background: linear-gradient(116.49deg, #C2C6BE 5.91%, #DFCEB6 99.95%);
+opacity: 0.8;
+}
